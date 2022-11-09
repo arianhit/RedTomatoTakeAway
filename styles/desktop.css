@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+#container {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 600px;
+}
+header {
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+header h2 {
+    font-size: 4rem;
+    width: 100%;
+    padding: 5px;
+    display: inline;
+}
+header h2 a:hover {
+  color: black;
+  
+}
+#myImages{
+  width: 1100px;
+  height: 1000px;
+
+}
+#logo {
+  text-align: center;
+  padding: 10px;
+}
+nav li a:hover {
+  color:black;
+}
+nav ul {
+    padding-top: 80px;
+    padding-right: 400px;
+  flex-direction: row;
+}
+nav ul li {
+    
+   display: flex;
+  color: white;
+  display: inline;
+  font-size: xx-large;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+
+}
+#Menu{
+
+    width:100%;
+    margin:auto;
+    padding: 10px;
+    border:2px solid #000;
+  }
+  #Menu div a{
+    color:red;
+    display: flex;
+    display: inline;
+    text-align: center;
+    font-size: xx-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    text-decoration:dashed;
+    border:2px solid red;
+    
+  }
+  #Menu div a:hover{
+    color: rgb(4, 4, 87);
+  }
+  .flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    
+    margin:10px 10px;
+  }
+  .flex-container div{
+    border:1px solid #000;
+    padding:10px;
+    margin:10px;
+  }
+  #Button {
+    padding-left: 400px;
+    padding-top: 50px;
+  }
+  #Button div a{
+    color:red;
+    display: flex;
+    display: inline;
+    text-align: center;
+    font-size: xx-large;
+    padding-left: 10px;
+    border: none;
+    text-decoration:dashed;
+    border:2px solid red;
+  }
+  #Button div a:hover{
+    color:rgb(4, 4, 87);
+  }
+  .ImgM p img{
+    width: 800px;
+    height: auto;
+    padding-left: 250px;
+    display: flex;
+  }
+.Number{
+    color: white;
+    font-size: 45;
+}
+#content {
+  display: flex;
+}
+.section {
+  flex: 1 1 auto;
+  padding: 0 10px 10px 0;
+}
+.resize-img {
+  width: 100%;
+  height: 100%;
+}
+.sidebar {
+  flex: 0 1 200px;
+  padding: 20px 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 70px 0 0 10px;
+}
+.left-float {
+  float: left;
+  padding: 0 15px 15px 0;
+}
+table {
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+}
+th,
+td {
+  padding: 10px 4px;
+  text-align: left;
+}
+th {
+  text-transform: uppercase;
+  border-bottom: 4px solid #000;
+  background-color: #fff;
+}
+tr:nth-child(odd) {
+  background-color: #ccc;
+}
+/* Form Styling Needs Adding */
+.section2{
+  margin-top:50px ;
+  margin: 50px;
+}
+#lightSlider img{
+  width: 100%;
+  height: auto;
+}
